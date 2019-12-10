@@ -404,3 +404,78 @@ body {
             RESPONSIVE
 =========================================== 
 */
+@media (max-width: 768px) {
+    body {
+        width: 100%;
+        margin: 0px;
+    }
+    .column {
+        width: 100%;
+    }
+    .card {
+       width: 100%;
+    }
+    .card-header {
+        padding: 20px 0px;
+    }
+    .title {
+        margin: 0px;
+    }
+    .subtitle {
+        margin: 30px 0px;
+    }
+    .card-body {
+        padding: 0px;        
+    }
+    .services-container {
+        align-items: center;       
+    }
+    .service-section-container {
+        width: 100%;
+        margin: 0px;
+    }
+    .service-title {
+        margin-top: 17px;
+    }
+    .service-block {
+        width: 25%;
+    }    
+    .services-client {
+        margin: 5px 40px;
+    }
+    .content-container {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .portfolio-img {
+        width: 33%;
+    }
+}
+@media (max-width: 360px) {
+    .card-header {
+        padding: 10px 0px;
+    }
+    .subtitle {
+        display: none;
+    }
+    .clear {
+        display: flex;
+        margin: 20px 0px 0px 0px;
+    }
+    .service-section-container {
+        margin-top: 20px
+    }
+    .service-block {
+        width: 100%;
+        border: 0,5 solid black;
+    }
+    .portfolio-img {
+        width: calc(100% - 30px);
+        margin: 5px 30px;
+    }
+    .services-client {
+        margin: 10px;
+    }
+}
+
